@@ -7,9 +7,6 @@ const cors = require("cors");
 
 const app = express();
 
-// view engine setup
-// app.set("view engine", "ejs");
-
 app.use(cors());
 app.use(express.json());
 app.use(logger("dev"));

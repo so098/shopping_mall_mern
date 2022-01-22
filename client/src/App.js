@@ -10,8 +10,8 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={LandingPage}></Route>
-          <Route path="/register" component={Register}></Route>
-          <Route path="/login" component={Login}></Route>
+          <Route exact path="/register" component={Register}></Route>
+          <Route exact path="/login" component={Login}></Route>
         </Switch>
       </div>
     </Router>
